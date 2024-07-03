@@ -1,0 +1,18 @@
+{
+  "name": "wardley_crew_sdk",
+  "version": "0.8.1",
+  "description": "OpenAPI client for wardley_crew_sdk",
+  "author": "OpenAPI-Generator",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^2.4"
+  },
+  "publishConfig": {
+    "registry": "https://github.com/tractorjuice/Wardley_API_TypeScript_SDK"
+  }
+}
